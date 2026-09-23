@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message" : "HR Employee Service Portal"}
+    return {"message" : "Enterprise IT Service Desk"}
 
 db = {
     1: {"id" : 1, "title" : "Computer is not on",
