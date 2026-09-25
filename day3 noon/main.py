@@ -14,7 +14,7 @@ app = FastAPI()
 # Mongo 
 URL = "mongodb://127.0.0.1:27017"
 client = MongoClient(URL)
-db = client["er_tickets_db"]
+db = client["richest_tickets_db"]
 ticket_collection = db["tickets"]
 user_collection = db["users"]
 
