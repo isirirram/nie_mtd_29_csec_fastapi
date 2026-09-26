@@ -7,7 +7,7 @@ from bson import ObjectId
 import jwt
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from pwdlib import PasswordHash
-from datetime import datetime, 
+from datetime import datetime
 
 # app 
 app = FastAPI()
